@@ -1,0 +1,27 @@
+###I've pretty much lost everything
+My computer needs worked on so it can power up
+this may be my opportunity to work on hardware
+in the meantime I need to code 
+using a python coding app that doesn't connect to git
+I appreciate you coming this far in my journey
+tag me in coach###
+name = input("What is your name? ")
+
+city = input("Where do you live? ")
+
+print("Welcome back to coding, ", name, "!")
+
+timing = int(input("How long have you lived there? "))
+
+out = ""
+
+if timing >= 10:
+	out="Thats basically home"
+elif timing == 9:
+	out="You might want to make a decision of figuring if you want to stay or nah"
+elif timing >= 5:
+		out = "You've been there for a while"
+
+else:
+		out ="You're still new there!"
+print(out)
